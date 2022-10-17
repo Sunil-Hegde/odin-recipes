@@ -1,0 +1,34 @@
+.heading {
+    color: black;
+    font-family: cursive, fantasy, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main {
+    font-size: 36px;
+}
+
+.image {
+    height: auto;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading.description {
+    color: #00ffff;
+    background-color: black;
+}
+
+.heading.ingredients {
+    color: #ff0000;
+    background-color: #fff000;
+}
+
+.heading.steps {
+    color: white;
+    background-color: green;
+}
+
