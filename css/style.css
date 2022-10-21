@@ -1,16 +1,28 @@
+body {
+    width: auto;
+    margin: auto;
+}
+
 .title.main {
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .title.breakfast {
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .title {
     color: black;
-    font-family: fantasy, "Times New Roman", sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     text-align: center;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: lightgray;
+    border: 5px black double;
 }
 
 .image {
@@ -19,11 +31,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: orangered 7px solid;
 }
 
 p.food {
-    color: rgb(200, 162, 200);
-    font-family: cursive, fantasy, sans-serif;
+    color: black;
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-align: center;

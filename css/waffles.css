@@ -1,3 +1,12 @@
+body {
+    width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.home {
+    padding: 8px;
+    margin-top: 50px;
+}
 .heading {
     color: black;
     font-family: fantasy, "Times New Roman", sans-serif;
@@ -15,20 +24,45 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid purple;
 }
 
 .heading.description {
     color: #00ffff;
     background-color: black;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 7px #00ffff double;
+}
+.span {
+    display: inline-block;
+    width: 75px;
+    
 }
 
 .heading.ingredients {
     color: #ff0000;
     background-color: #fff000;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 7px #ff0000 double;
 }
 
 .heading.steps {
     color: white;
     background-color: green;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 7px #ffffff double;
+}
+
+ul li {
+    margin-left: 70px;
 }
 

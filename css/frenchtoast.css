@@ -1,12 +1,21 @@
+body {
+    width: 700px;
+    margin: auto;
+}
+.home {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .heading {
     color: black;
-    font-family: fantasy, "Times New Roman", sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 .main {
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .image {
@@ -15,20 +24,44 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: crimson 7px solid;
 }
 
 .heading.description {
     color: #00ffff;
     background-color: black;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+    border: #00ffff 7px double;
 }
-
+span {
+    display: inline-block;
+    width: 50px;
+}
 .heading.ingredients {
     color: #ff0000;
     background-color: #fff000;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+    border: red 7px double;
 }
 
 .heading.steps {
     color: white;
     background-color: green;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+    border: white 7px double;
 }
+
+ul li {
+    margin-left: 70px;
+}
+
 
